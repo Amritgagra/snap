@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snap</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <header class="container-fluid">
+    <nav class="nav">
+        <a href="#" class="logo" aria-label="logo">
+            <svg width="84" height="27">
+                <use xlink:href="assets/images/sprite.svg#logo"></use>
+              </svg>
+        </a>
+        <a href="#" class="mobile-menu">        
+             <svg width="32" height="18">
+            <use xlink:href="assets/images/sprite.svg#icon-menu"></use>
+          </svg></a>
+        <ul class="list nav__list">
+            <li class="list__item close-icon--items"><a href="#" class="close-icon">  
+                 <svg width="26" height="26">
+                <use xlink:href="assets/images/sprite.svg#icon-close-menu"></use>
+              </svg></a></li>
+            <li class="list__item feature-list"><a href="#" class="list__link">feature <span class="arrow-down">
+                <svg width="10" height="6">
+                    <use xlink:href="assets/images/sprite.svg#icon-arrow-down"></use>
+                  </svg>
+            </span></a>
+            <!-- dropdown list -->
+            <ul class="dropdown-list">
+                <li class="dropdown__item"><a href="#" class="dropdown__link">
+                    <span>
+                        <svg width="14" height="16">
+                            <use xlink:href="assets/images/sprite.svg#icon-todo"></use>
+                          </svg>
+                    </span>
+                    todo list</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">
+                    <span>
+                        <svg width="14" height="16">
+                            <use xlink:href="assets/images/sprite.svg#icon-calendar"></use>
+                          </svg>
+                    </span>
+                    calendar</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">
+                    <span>
+                        <svg width="14" height="16">
+                            <use xlink:href="assets/images/sprite.svg#icon-reminders"></use>
+                          </svg>
+                    </span>
+                    reminder</a></li>
+                <li class="dropdown__item"><a href="#" class="dropdown__link">
+                    <span>
+                        <svg width="14" height="16">
+                            <use xlink:href="assets/images/sprite.svg#icon-planning"></use>
+                          </svg>
+                    </span>
+                    planning</a></li>
+            </ul>
+            </li>
+            <li class="list__item company-work-list"><a href="#" class="list__link">company<span class="arrow-down">
+                <svg class="" width="10" height="6">
+                    <use xlink:href="assets/images/sprite.svg#icon-arrow-down"></use>
+                  </svg>
+                </span></a>
+               <!-- dropdown list -->
+                <ul class="dropdown-list">
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">
+                        history</a></li>
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">
+                        our team</a></li>
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">
+                        blog</a></li>
+                     </ul>
+            </li>
+            <li class="list__item"><a href="#" class="list__link">careers</a></li>
+            <li class="list__item"><a href="#" class="list__link">about</a></li>
+            <li class="login-container">
+                <a href="#">Login</a>
+                <a href="#" class="btn">Register</a>
+            </li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <div class="container">
+        <div class="hero grid-col-2">
+            <div class="hero__content">
+                <div>
+                    <h1 class="hero__heading">Make <span class="d-block">remote Work</span></h1>
+                    <p class="hero__text">Get your team in sync,no matter your location.Streamline processes,create team rituals,and watch productivity soar.</p>
+                    <a href="#" class="btn btn--fill">Learn more</a>
+                </div>
+                <ul class="list client-list">
+                    <li class="list__item"><a href="#" class="list__link">
+                        <svg width="114" height="20">
+                            <use xlink:href="assets/images/sprite.svg#client-databiz"></use>
+                          </svg>    
+                    </a></li>
+                    <li class="list__item"><a href="#" class="list__link">
+                        <svg width="73" height="36">
+                            <use xlink:href="assets/images/sprite.svg#client-audiophile"></use>
+                          </svg>
+                        </a></li>
+                    <li class="list__item"><a href="#" class="list__link">
+                        <svg width="90" height="20">
+                            <use xlink:href="assets/images/sprite.svg#client-meet"></use>
+                          </svg>
+                        </a></li>
+                    <li class="list__item"><a href="#" class="list__link">
+                        <svg width="83" height="24">
+                        <use xlink:href="assets/images/sprite.svg#client-maker"></use>
+                      </svg>
+                    </a></li>
+                </ul>
+            </div>
+            <div>
+                <picture>
+                    <source  type="image/png" srcset="assets/images/image-hero-mobile.png 768w, assets/images/image-hero-desktop.png 992w" >
+                    <img class="img-fluid" src="assets/images/image-hero-mobile.png" alt="hero-img">
+                </picture>
+            </div>
+           </div>
+    </div>
+   </main>
+   <script src="assets/js/app.js"></script>
+</body>
+</html>
